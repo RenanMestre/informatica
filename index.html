@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áreas da informática</title>
+
+    <link rel="stylesheet" href="cartão.css">
+</head>
+<body>
+   
+    <div id="container">
+        <h1>Áreas da informática de atuação</h1>
+        <div class="tab-buttons">
+            <button class="tab-btn" content-id="programming">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                  </svg>
+            </button>
+            <button class="tab-btn" content-id="artificial-intelligence">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M360-360v-240h240v240H360Zm80-80h80v-80h-80v80Zm-80 320v-80h-80q-33 0-56.5-23.5T200-280v-80h-80v-80h80v-80h-80v-80h80v-80q0-33 23.5-56.5T280-760h80v-80h80v80h80v-80h80v80h80q33 0 56.5 23.5T760-680v80h80v80h-80v80h80v80h-80v80q0 33-23.5 56.5T680-200h-80v80h-80v-80h-80v80h-80Zm320-160v-400H280v400h400ZM480-480Z"/></svg>
+            </button>
+            <button class="tab-btn" content-id="marketing">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                  </svg>
+            </button>
+            <button class="tab-btn" content-id="cyber-security">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fingerprint" viewBox="0 0 16 16">
+                    <path d="M8.06 6.5a.5.5 0 0 1 .5.5v.776a11.5 11.5 0 0 1-.552 3.519l-1.331 4.14a.5.5 0 0 1-.952-.305l1.33-4.141a10.5 10.5 0 0 0 .504-3.213V7a.5.5 0 0 1 .5-.5Z"/>
+                    <path d="M6.06 7a2 2 0 1 1 4 0 .5.5 0 1 1-1 0 1 1 0 1 0-2 0v.332q0 .613-.066 1.221A.5.5 0 0 1 6 8.447q.06-.555.06-1.115zm3.509 1a.5.5 0 0 1 .487.513 11.5 11.5 0 0 1-.587 3.339l-1.266 3.8a.5.5 0 0 1-.949-.317l1.267-3.8a10.5 10.5 0 0 0 .535-3.048A.5.5 0 0 1 9.569 8m-3.356 2.115a.5.5 0 0 1 .33.626L5.24 14.939a.5.5 0 1 1-.955-.296l1.303-4.199a.5.5 0 0 1 .625-.329"/>
+                    <path d="M4.759 5.833A3.501 3.501 0 0 1 11.559 7a.5.5 0 0 1-1 0 2.5 2.5 0 0 0-4.857-.833.5.5 0 1 1-.943-.334m.3 1.67a.5.5 0 0 1 .449.546 10.7 10.7 0 0 1-.4 2.031l-1.222 4.072a.5.5 0 1 1-.958-.287L4.15 9.793a9.7 9.7 0 0 0 .363-1.842.5.5 0 0 1 .546-.449Zm6 .647a.5.5 0 0 1 .5.5c0 1.28-.213 2.552-.632 3.762l-1.09 3.145a.5.5 0 0 1-.944-.327l1.089-3.145c.382-1.105.578-2.266.578-3.435a.5.5 0 0 1 .5-.5Z"/>
+                    <path d="M3.902 4.222a5 5 0 0 1 5.202-2.113.5.5 0 0 1-.208.979 4 4 0 0 0-4.163 1.69.5.5 0 0 1-.831-.556m6.72-.955a.5.5 0 0 1 .705-.052A4.99 4.99 0 0 1 13.059 7v1.5a.5.5 0 1 1-1 0V7a3.99 3.99 0 0 0-1.386-3.028.5.5 0 0 1-.051-.705M3.68 5.842a.5.5 0 0 1 .422.568q-.044.289-.044.59c0 .71-.1 1.417-.298 2.1l-1.14 3.923a.5.5 0 1 1-.96-.279L2.8 8.821A6.5 6.5 0 0 0 3.058 7q0-.375.054-.736a.5.5 0 0 1 .568-.422m8.882 3.66a.5.5 0 0 1 .456.54c-.084 1-.298 1.986-.64 2.934l-.744 2.068a.5.5 0 0 1-.941-.338l.745-2.07a10.5 10.5 0 0 0 .584-2.678.5.5 0 0 1 .54-.456"/>
+                    <path d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865m-.89 1.257a.5.5 0 0 1 .04.706A5.48 5.48 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346m12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49"/>
+                  </svg>
+            </button>
+            <button class="tab-btn" content-id="soft-skills">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+                    <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.44 12.44 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.52.52 0 0 0 .668.05A11.45 11.45 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049"/>
+                    <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.46 9.46 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065m-2.183 2.183c.226-.226.185-.605-.1-.75A6.5 6.5 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.5 5.5 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091zM9.06 12.44c.196-.196.198-.52-.04-.66A2 2 0 0 0 8 11.5a2 2 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+                  </svg>
+            </button>
+        </div>
+
+        <div class="tab-contents">
+            <div class="content show" id="programming">
+                <img src="/Sites/Renan Mestre/Códigos prontos/Portólio particular/Cartão/Cartão/Cartão/Logo de programação.png" class="content-img" alt="Programação imagem">
+                <div class="infos">
+                    <h2 class="content-title">Programação</h2>
+                    <p class="content-description">Ganha de R$4.000,00 até R$13.191,50!<br> <br>A área de programação é um vasto campo que envolve a criação, desenvolvimento e manutenção de software e sistemas de computador. Dentro dela encontramos os caminhos de um programador: <br>
+                        Linguagens de Programação: Existem várias linguagens de programação, cada uma com suas próprias características e usos. Exemplos incluem Python, Java, C++, JavaScript e muitas outras. <br>
+                        Paradigmas de Programação: Os paradigmas de programação definem a abordagem geral para resolver problemas de programação. Isso inclui paradigmas como programação orientada a objetos, programação funcional, programação procedural, entre outros.
+                        Desenvolvimento de Software: O processo de desenvolvimento de software envolve várias etapas, desde a concepção e análise de requisitos até o design, implementação, teste e manutenção do software. <br>
+                        Áreas Específicas: A programação se estende por uma ampla gama de áreas, incluindo desenvolvimento web, desenvolvimento de aplicativos móveis, desenvolvimento de jogos, inteligência artificial, aprendizado de máquina, segurança cibernética, entre outras.
+                        Ferramentas e Tecnologias: Os programadores utilizam uma variedade de ferramentas e tecnologias para desenvolver software de forma eficiente. Isso inclui ambientes de desenvolvimento integrado (IDEs), sistemas de controle de versão, frameworks, bibliotecas e muito mais. <br>
+                        Comunidade e Colaboração: A comunidade de programadores é vasta e diversificada, com fóruns online, comunidades de código aberto e eventos onde os desenvolvedores compartilham conhecimento, colaboram em projetos e resolvem problemas juntos. <br>
+                        Aprendizado Contínuo: Devido à rápida evolução da tecnologia, os programadores precisam estar constantemente aprendendo e se atualizando para acompanhar as novas tendências, linguagens e tecnologias emergentes. <br>
+                        Demandas no Mercado de Trabalho: A demanda por programadores é alta em diversas indústrias, desde empresas de tecnologia até setores como finanças, saúde, educação e entretenimento. <br>
+                        Em resumo, a área de programação é dinâmica e desafiadora, oferecendo oportunidades para os que desejam criar soluções inovadoras e impactar positivamente o mundo digital.
+                    </p>
+                </div>
+            </div>
+
+        <div class="tab-contents">
+            <div class="content" id="artificial-intelligence">
+                <img src="/Sites/Renan Mestre/Códigos prontos/Portólio particular/Cartão/Cartão/Cartão/Inteligência artificial.jpg" class="content-img" alt="Inteligência Artificial imagem">
+                <div class="infos">
+                    <h2 class="content-title">Inteligência Artificial</h2>
+                    <p class="content-description">Ganha de R$249.123,00 até R$258.670,00!<br> <br>
+                        A Inteligência Artificial (IA) é um campo da ciência da computação que se concentra no desenvolvimento de sistemas capazes de realizar tarefas que normalmente exigiriam inteligência humana. Aqui está um resumo abrangente sobre esse campo: <br>
+                        Definição e Objetivos: A IA se concentra na criação de sistemas que possam aprender, raciocinar, perceber, compreender e agir de maneira semelhante aos seres humanos, com o objetivo de automatizar processos, resolver problemas complexos e melhorar a eficiência em diversas áreas.
+                        Subcampos da IA: A IA abrange uma variedade de subcampos, incluindo Aprendizado de Máquina (Machine Learning), Processamento de Linguagem Natural (Natural Language Processing - NLP), Visão Computacional, Robótica, Sistemas Especialistas, entre outros. <br>
+                        Aprendizado de Máquina: O Aprendizado de Máquina é uma subárea central da IA, onde os sistemas são treinados para reconhecer padrões nos dados e fazer previsões ou tomar decisões com base nesses padrões, sem uma programação explícita. <br>
+                        Aplicações Práticas: A IA é aplicada em uma ampla gama de setores, incluindo saúde (diagnóstico médico, análise de imagens médicas), finanças (detecção de fraudes, previsão de mercado), transporte (veículos autônomos), comércio eletrônico (recomendações de produtos), entre muitos outros.
+                        Ética e Responsabilidade: O desenvolvimento e o uso da IA levantam questões éticas importantes, incluindo preocupações com a privacidade dos dados, viés algorítmico, desemprego tecnológico e o impacto social e econômico da automação. <br>
+                        Avanços Recentes: Nos últimos anos, houve avanços significativos na IA, impulsionados pelo aumento da capacidade computacional, grandes conjuntos de dados disponíveis e algoritmos mais sofisticados. Isso levou a avanços notáveis em áreas como reconhecimento de voz, tradução automática, veículos autônomos e muito mais. <br>
+                        Futuro da IA: A IA continua a evoluir rapidamente, com previsões sobre seu impacto transformador em praticamente todos os aspectos da sociedade. É esperado que a IA desempenhe um papel cada vez mais importante na inovação tecnológica e na solução de desafios globais. <br>
+                        Em resumo, a Inteligência Artificial é um campo emocionante e em constante evolução, com o potencial de revolucionar a maneira como vivemos, trabalhamos e interagimos com o mundo ao nosso redor.                        
+                    </p>
+                </div>
+            </div>
+
+            <div class="tab-contents">
+                <div class="content" id="marketing">
+                    <img src="/Sites/Renan Mestre/Códigos prontos/Portólio particular/Cartão/Cartão/Cartão/marketing digital.jpg" class="content-img" alt="Marketing Digital imagem">
+                    <div class="infos">
+                        <h2 class="content-title">Marketing digital</h2>
+                        <p class="content-description">Ganha de R$10.636,00 até R$33.000,00!<br> <br>
+                            Marketing digital refere-se a todas as estratégias de marketing e publicidade aplicadas em canais digitais, como a internet e dispositivos móveis. Seu objetivo principal é promover produtos, serviços ou marcas, alcançando e engajando o público-alvo de forma eficaz. <br>
+                            Principais Elementos do Marketing Digital: <br>
+                            Website: A base de operações online de uma empresa, onde os visitantes podem aprender mais sobre seus produtos e serviços. <br>
+                            SEO (Search Engine Optimization): Otimização de conteúdo para melhorar o ranking nos resultados dos mecanismos de busca, aumentando a visibilidade online. <br>
+                            Marketing de Conteúdo: Criação e compartilhamento de conteúdo relevante e valioso para atrair, envolver e converter o público-alvo em clientes. <br>
+                            Redes Sociais: Utilização de plataformas como Facebook, Instagram, Twitter, LinkedIn, entre outras, para se conectar com o público, aumentar a conscientização da marca e promover produtos/serviços. <br>
+                            Email Marketing: Envio de mensagens comerciais ou informativas por email para nutrir relacionamentos com clientes e prospects. <br>
+                            PPC (Pay-Per-Click): Publicidade paga em que os anunciantes pagam uma taxa sempre que seu anúncio é clicado. <br>
+                            Marketing de Influenciadores: Colaboração com pessoas influentes em redes sociais para promover produtos/serviços para seus seguidores. <br>
+                            Análise de Dados: Uso de ferramentas analíticas para medir e avaliar o desempenho das campanhas, entender o comportamento do usuário e fazer ajustes estratégicos.
+                        </p>
+                    </div>
+                </div>
+
+        <div class="tab-contents">
+            <div class="content" id="cyber-security">
+                <img src="/Sites/Renan Mestre/Códigos prontos/Portólio particular/Cartão/Cartão/Cartão/Cibersegurança.jpeg" class="content-img" alt="Cibersegurança imagem">
+                <div class="infos">
+                    <h2 class="content-title">Cibersegurança</h2>
+                    <p class="content-description">Ganha de R$5.251,00 até R$260.000,00! (Brasil)<br> <br>
+                        Cibersegurança refere-se às práticas e medidas adotadas para proteger sistemas, redes e dados contra ataques cibernéticos, que visam comprometer a confidencialidade, integridade e disponibilidade das informações. <br>
+                        Principais Componentes da Cibersegurança: <br>
+                        Segurança da Rede: Implementação de firewalls, IDS (Intrusion Detection Systems) e IPS (Intrusion Prevention Systems) para proteger a rede contra acessos não autorizados e atividades maliciosas. <br>
+                        Segurança de Endpoint: Proteção de dispositivos finais, como computadores, smartphones e tablets, por meio de antivírus, antimalware e controle de acesso. <br>
+                        Gestão de Identidade e Acesso: Controle de quem tem acesso aos recursos de rede e sistemas, utilizando autenticação multifatorial, políticas de senha forte e gerenciamento de privilégios. <br>
+                        Criptografia: Utilização de algoritmos criptográficos para proteger dados sensíveis em trânsito e em repouso, garantindo sua confidencialidade e integridade. <br>
+                        Gestão de Vulnerabilidades: Identificação, avaliação e mitigação de vulnerabilidades em sistemas e aplicações por meio de análises de segurança e patches de segurança. <br>
+                        Conscientização e Treinamento: Educação dos usuários sobre práticas seguras de navegação na internet, reconhecimento de ameaças e como relatar incidentes de segurança.
+                    </p>
+                </div>
+            </div>
+            
+        <div class="tab-contents">
+            <div class="content" id="soft-skills">
+                <img src="/Sites/Renan Mestre/Códigos prontos/Portólio particular/Cartão/Cartão/Cartão/Redes de computadores.jpg" class="content-img" alt="Rede de computadores imagem">
+                <div class="infos">
+                    <h2 class="content-title">Rede de computadores</h2>
+                    <p class="content-description">Ganha de R$1.603,00 até 1.915,00! (Brasil)<br> <br>
+                        Redes de computadores são estruturas físicas e lógicas que permitem a comunicação e o compartilhamento de recursos entre dispositivos, como computadores, servidores, impressoras e dispositivos móveis. Essas redes podem variar em tamanho e complexidade, desde redes locais em residências até grandes redes globais que abrangem múltiplas organizações. <br>
+                        Principais Componentes das Redes de Computadores: <br>
+                        Dispositivos de Rede: Incluem computadores, roteadores, switches, hubs, gateways e modems, que facilitam a comunicação e a transferência de dados entre os dispositivos conectados. <br>
+                        Meios de Transmissão: São os canais físicos ou lógicos pelos quais os dados são transmitidos na rede, como cabos de cobre, fibras ópticas e transmissão sem fio (Wi-Fi). <br>
+                        Protocolos de Rede: São conjuntos de regras e convenções que definem como os dispositivos na rede se comunicam entre si, incluindo protocolos de transporte (como TCP/IP), protocolos de roteamento (como OSPF e BGP) e protocolos de aplicação (como HTTP e FTP). <br>
+                        Topologia de Rede: Refere-se ao layout físico ou lógico da rede, que pode ser em estrela, barramento, anel, malha ou híbrida, determinando como os dispositivos estão interconectados. <br>
+                        Endereçamento IP: É o método usado para identificar e localizar dispositivos na rede, atribuindo a cada dispositivo um endereço único (como o endereço IP).
+                    </p>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <script src="cartão.js"></script>
+</body>
+</html>
